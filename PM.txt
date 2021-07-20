@@ -1,0 +1,9 @@
+* Config DB
+  "ConnectionStrings": {
+    "DevConnection" :  "Server=.\\sqlexpress;Database=tuto;Trusted_Connection=True;MultipleActiveResultSets=True;"
+  }
+
+* Package manager
+Add-Migration "Init Db"
+Update-Database
+Remove-Migration

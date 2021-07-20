@@ -1,0 +1,23 @@
+#Installation
+
+## Client
+
+### Installation Angular
+- Générer le projet
+```
+
+ng new <projet> --style=scss --skipTests=true --routing=true
+```
+
+### Bootstrap
+- Installation Boostrap
+```
+npm install boostrap
+```
+- Modifier le angular.json
+```
+"styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.scss"
+            ],
+```
